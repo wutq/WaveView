@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaveView">
+        <!--波浪的总个数-->
+        <attr name="waveCount" format="integer" />
+        <!--波浪的宽度-->
+        <attr name="waveWidth" format="integer" />/
+        <attr name="waveMode" format="integer">
+            <enum name="circle" value="1" />
+            <enum name="triangle" value="0" />
+        </attr>
+        <attr name="waveColor" format="color" />
+    </declare-styleable>
+
+</resources>
